@@ -159,5 +159,5 @@ jobs:
       env:
         AUTHOR: "Mr Bean"
       run: |
-        mvn clean deploy --file pom.xml -DmuleDeploy -Denvironment="Sandbox" -Dtarget="rtfcluster38" -Dca_client_id="${{ secrets.CA_CLIENT_ID }}" -Dca_client_secret="${{ secrets.CA_CLIENT_SECRET }}"
+        mvn clean deploy --file pom.xml -DmuleDeploy -Denvironment="Sandbox" -Dtarget="rtfcluster-wojciech" -Dca_client_id="${{ secrets.CA_CLIENT_ID }}" -Dca_client_secret="${{ secrets.CA_CLIENT_SECRET }}"
         
